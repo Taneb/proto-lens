@@ -1,0 +1,35 @@
+resolver: lts-12.7
+packages:
+- discrimination-ieee754
+- lens-labels
+- proto-lens
+- proto-lens-arbitrary
+#- proto-lens-benchmarks
+- proto-lens-combinators
+- proto-lens-discrimination
+- proto-lens-optparse
+- proto-lens-protobuf-types
+- proto-lens-protoc
+- proto-lens-runtime
+- proto-lens-setup
+- proto-lens-tests
+- proto-lens-tests-dep
+extra-deps:
+- discrimination-0.3
+- promises-0.3
+- Cabal-2.4.0.1
+- stm-2.5.0.0
+- haskell-src-exts-1.20.3
+- git: https://github.com/ekmett/contravariant.git
+  commit: 9f3d30bcbf60968e316e2126ec1b9398dec6dc20
+
+
+allow-newer: true
+
+setup-info:
+  ghc:
+    macosx:
+      8.6.1:
+        url: https://downloads.haskell.org/~ghc/8.6.1/ghc-8.6.1-x86_64-apple-darwin.tar.xz
+        sha256: 9692cdfd202b0e039ea0c3dde5dbf653736c836ca1df46504b179b572100808c
+compiler: ghc-8.6.1
