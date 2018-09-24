@@ -180,6 +180,7 @@ generatingProtos root = generatingSpecificProtos root getProtos
            . filter (isSubdirectoryOf root)
            $ files
 
+match :: PackageDescription -> FilePath -> IO [FilePath]
 #if MIN_VERSION_Cabal(2,4,0)
 match desc f = matchDirFileGlob normal (specVersion desc) "." f
 #else
