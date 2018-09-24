@@ -1,12 +1,12 @@
 resolver: lts-12.7
 packages:
-- discrimination-ieee754
+# - discrimination-ieee754
 - lens-labels
 - proto-lens
 - proto-lens-arbitrary
-#- proto-lens-benchmarks
+# - proto-lens-benchmarks
 - proto-lens-combinators
-- proto-lens-discrimination
+# - proto-lens-discrimination
 - proto-lens-optparse
 - proto-lens-protobuf-types
 - proto-lens-protoc
@@ -15,16 +15,15 @@ packages:
 - proto-lens-tests
 - proto-lens-tests-dep
 extra-deps:
-- discrimination-0.3
-- promises-0.3
+# - discrimination-0.3
+# - promises-0.3
 - Cabal-2.4.0.1
 - stm-2.5.0.0
 - haskell-src-exts-1.20.3
 - git: https://github.com/ekmett/contravariant.git
   commit: 9f3d30bcbf60968e316e2126ec1b9398dec6dc20
-
-
-allow-newer: true
+- git: https://github.com/phadej/cabal-doctest.git
+  commit: 54074bf7da8f3db2769e3d3efb23da72c48e9fe6
 
 setup-info:
   ghc:
