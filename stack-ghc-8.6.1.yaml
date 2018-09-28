@@ -23,6 +23,7 @@ extra-deps:
 - lens-family-1.2.3
 - lens-family-core-1.2.3
 - primitive-0.6.4.0
+- integer-logarithms-1.0.2.2
 - git: https://github.com/ekmett/tagged.git
   commit: 5f6945a876779f5e9f59d9381088b9b789ce09b8
 - git: https://github.com/ekmett/contravariant.git
