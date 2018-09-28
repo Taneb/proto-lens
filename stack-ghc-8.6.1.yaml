@@ -18,6 +18,7 @@ extra-deps:
 # - discrimination-0.3
 # - promises-0.3
 - Cabal-2.4.0.1
+- happy-1.19.9@rev:3
 - stm-2.5.0.0
 - haskell-src-exts-1.20.3
 - lens-family-1.2.3
